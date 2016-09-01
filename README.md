@@ -23,3 +23,11 @@
     iiii. 输入框等的错误提示信息和样式
 3. 主层父元素居中，通过设置：width:1200px; margin: 0 auto;
 4. ul/li，设置好li为display:inline-block的时候，元素之间依然会有空隙；（http://www.cnblogs.com/2050/archive/2012/05/16/2504081.html），设置ul的font-size为0是最优。
+5. 
+
+
+2016.09.01
+还是要实时纪录呀；
+<b>Canvas用法纪录</b>
+1. canvas的width和height使用css样式不起作用，应该直接设置width和height属性；
+2. 了解关于canvas实现的原理，比如按照像素分布等等
