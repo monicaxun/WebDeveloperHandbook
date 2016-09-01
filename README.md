@@ -30,4 +30,11 @@
 还是要实时纪录呀；<br/>
 <b>Canvas用法纪录</b><br/>
 1. canvas的width和height使用css样式不起作用，应该直接设置width和height属性；<br/>
-2. 了解关于canvas实现的原理，比如按照像素分布等等。<br/>
+2. 了解关于canvas实现的原理，比如按照像素分布等等。<br/><br/><br/>
+
+
+<b>移动端开发领取奖励</b><br/>
+1. 使用mui框架；<br/> 
+2. 手机端的select元素，表现与浏览器模拟出来的不一致：分别为<br/>
+&nbsp;&nbsp;a) 安卓：屏幕中央弹出一个蒙层框，选择选项；<br/>
+&nbsp;&nbsp;a) iOS：底部弹出蒙层框，选择选项；<br/>
