@@ -23,7 +23,6 @@
     iiii. 输入框等的错误提示信息和样式
 3. 主层父元素居中，通过设置：width:1200px; margin: 0 auto;
 4. ul/li，设置好li为display:inline-block的时候，元素之间依然会有空隙；（http://www.cnblogs.com/2050/archive/2012/05/16/2504081.html），设置ul的font-size为0是最优。
-5. 
 
 
 2016.09.01
@@ -38,3 +37,10 @@
 2. 手机端的select元素，表现与浏览器模拟出来的不一致：分别为<br/>
 &nbsp;&nbsp;a) 安卓：屏幕中央弹出一个蒙层框，选择选项；<br/>
 &nbsp;&nbsp;a) iOS：底部弹出蒙层框，选择选项；<br/>
+
+2016.09.08
+1. -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
+   设置字体平滑度（深层理解阅读：http://szafranek.net/works/articles/font-smoothing-explained/）
+2. css content结合before/after伪元素使用，设置前后内容
+   content使用的unicode编码：https://en.wikipedia.org/wiki/List_of_Unicode_characters
+3. 研究学习vue.js，类似Angular.js的MVVM框架
