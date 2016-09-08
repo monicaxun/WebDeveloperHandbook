@@ -44,3 +44,6 @@
 2. css content结合before/after伪元素使用，设置前后内容
    content使用的unicode编码：https://en.wikipedia.org/wiki/List_of_Unicode_characters
 3. 研究学习vue.js，类似Angular.js的MVVM框架
+
+4. PS保存图片，选择保存为WEB所用格式（Command/Ctrl+Alt+Shift+S），图片保存大小与预览大小不一致：
+   右侧选择“元数据”为无
