@@ -47,3 +47,19 @@
 
 4. PS保存图片，选择保存为WEB所用格式（Command/Ctrl+Alt+Shift+S），图片保存大小与预览大小不一致：
    右侧选择“元数据”为无
+
+
+2016.09.12
+1. 使用toggle收缩：
+	$("#togglt_btn").toggle(function(){
+		$(".to_expand_item").animate({height: 'toggle', opacity: 'toggle'}, "slow");
+			$(this).addClass("expand"); //按钮样式更改
+			return false;
+ 
+		},function(){
+			$(this).parent().next(".to_expand_item").animate({height: 'toggle', opacity: 'toggle'}, "slow");
+			$(this).removeClass("expand");
+			return false;
+		}
+	);
+2. 收缩闪一下，由于元素之间的margin值坍塌，最好的方法是处理css时候，不要同时使用margin-top/margin-bottom，只需要设置一个值就ok。
