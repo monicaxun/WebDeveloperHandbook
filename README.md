@@ -22,7 +22,7 @@
     iii. 图片元素的高度（设计稿和最终开发呈现的会出现差异）
     iiii. 输入框等的错误提示信息和样式
 3. 主层父元素居中，通过设置：width:1200px; margin: 0 auto;
-4. ul/li，设置好li为display:inline-block的时候，元素之间依然会有空隙；（http://www.cnblogs.com/2050/archive/2012/05/16/2504081.html），设置ul的font-size为0是最优。
+4. ul/li，设置好li为display:inline-block的时候，元素之间依然会有空隙；（http://www.cnblogs.com/2050/archive/2012/05/16/2504081.html），设置ul的font-size为0是最优。设置float为left一样可以清除间隙。
 
 
 2016.09.01
@@ -63,3 +63,6 @@
 		}
 	);
 2. 收缩闪一下，由于元素之间的margin值坍塌，最好的方法是处理css时候，不要同时使用margin-top/margin-bottom，只需要设置一个值就ok。
+
+2016.09.14
+1. 设置父元素line-height来控制间隔，对于过多的子元素，不好控制间隔；要适时选择是否使用line-height。
