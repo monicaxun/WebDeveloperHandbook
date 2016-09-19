@@ -84,3 +84,4 @@ $(function(){…});   jQuery(function($) {…});  $(document).ready(function(){�
 2016.09.14
 1. 设置父元素line-height来控制间隔，对于过多的子元素，不好控制间隔；要适时选择是否使用line-height。
 2. TODO: 设置div元素line-height为58px，内部元素包括span设置display:inline-block，span有一个图标，设置width/height/display:inline-block，此时如果设置这个span的overflow:hidden，页面结构会错乱，类似浮动，需要设置vertical-align:middle保证页面显示垂直居中效果？
+2. TODO: 设置div元素line-height为58px，内部元素包括span设置display:inline-block，span有一个图标，设置width/height/display:inline-block，此时如果设置这个span的overflow:hidden，页面结构会错乱，类似浮动，需要设置vertical-align:middle保证页面显示垂直居中效果？Why
