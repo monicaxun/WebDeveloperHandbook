@@ -47,3 +47,21 @@
 
 4. PS保存图片，选择保存为WEB所用格式（Command/Ctrl+Alt+Shift+S），图片保存大小与预览大小不一致：
    右侧选择“元数据”为无
+   图片保存线条比原先粗：
+   选择保存为PNG24位图
+
+5. box-shadow用法：
+box-shadow: 0px 5px 15px -5px rgba(3,0,0,0.15);
+box-shadow: 横向偏移 竖直偏移 阴影宽度 阴影扩散值 阴影色值 inset/outset
+
+6. css线性:line-gradient
+设置为90度，颜色到transparent的过渡，有金属光泽立体感
+>学习参考http://www.cnblogs.com/lhb25/archive/2013/01/30/css3-linear-gradient.html
+
+7. (function($) {…})(jQuery);形成闭包，在此范围内定义的变量至此不可引用
+$(function(){…});   jQuery(function($) {…});  $(document).ready(function(){…})作用类似，文档加载完成后执行js
+
+2016.09.19
+1. 移动端设置placeholder样式：input::-webkit-input-placeholder
+2. 使用li:list-item设置类目前方的圆点，原本可以通过控制font-size和color实现原点的颜色和大小。但是这种情况下，圆点会比较小。实际应用中，圆点比较大的情况下，最好还是使用占位元素，设置背景色等等效果实现圆点样式。
+这样，做时间轴效果的时候，使用li:before与position:absolute也会比较好控制具体的left等的位置。
