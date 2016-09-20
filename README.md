@@ -13,16 +13,16 @@
 这边由于主要是静态页面，所以，目前暂时就好好地锻炼自己的css能力，不焦躁。慢慢练习，找出手感。
 
 来这边之后，比如知道了：
-	1. border-radius，照片可以是方的，设置border-radius为100%(50%)，即可展示照片为圆形。
-    I. 正如原点的实现，可以通过设置长宽为0，然后设置border宽度，同时设置border-radius为大于等于border的宽度即可
-    II. 或者，直接设置元素的宽度和高度，如18px，然后设置border-radius为50%；异曲同工
-2. 设计网站的时候，需要考虑很多因素：
-    i. 表格考虑没有结果搜索出来的样式；
-    ii. 字段太长（hover和省略号样式）
-    iii. 图片元素的高度（设计稿和最终开发呈现的会出现差异）
-    iiii. 输入框等的错误提示信息和样式
-3. 主层父元素居中，通过设置：width:1200px; margin: 0 auto;
-4. ul/li，设置好li为display:inline-block的时候，元素之间依然会有空隙；（http://www.cnblogs.com/2050/archive/2012/05/16/2504081.html），设置ul的font-size为0是最优。设置float为left一样可以清除间隙。
+>1. border-radius，照片可以是方的，设置border-radius为100%(50%)，即可展示照片为圆形。
+>>I. 正如原点的实现，可以通过设置长宽为0，然后设置border宽度，同时设置border-radius为大于等于border的宽度即可
+>>II. 或者，直接设置元素的宽度和高度，如18px，然后设置border-radius为50%；异曲同工
+>2. 设计网站的时候，需要考虑很多因素：
+>>i. 表格考虑没有结果搜索出来的样式；
+>>ii. 字段太长（hover和省略号样式）
+>>iii. 图片元素的高度（设计稿和最终开发呈现的会出现差异）
+>>iiii. 输入框等的错误提示信息和样式
+>3. 主层父元素居中，通过设置：width:1200px; margin: 0 auto;
+>4. ul/li，设置好li为display:inline-block的时候，元素之间依然会有空隙；（http://www.cnblogs.com/2050/archive/2012/05/16/2504081.html），设置ul的font-size为0是最优。设置float为left一样可以清除间隙。
 
 
 2016.09.01
