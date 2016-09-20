@@ -42,17 +42,17 @@ V. 输入框等的错误提示信息和样式
 #######
 1. -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
    设置字体平滑度（深层理解阅读：http://szafranek.net/works/articles/font-smoothing-explained/）
-#
+
 2. css content结合before/after伪元素使用，设置前后内容
 >content使用的unicode编码：https://en.wikipedia.org/wiki/List_of_Unicode_characters
-#
+
 3. 研究学习vue.js，类似Angular.js的MVVM框架
-#
+
 4. PS保存图片，选择保存为WEB所用格式（Command/Ctrl+Alt+Shift+S），图片保存大小与预览大小不一致：
    右侧选择“元数据”为无
    图片保存线条比原先粗：
    选择保存为PNG24位图
-#
+
 5. box-shadow用法：
 box-shadow: 0px 5px 15px -5px rgba(3,0,0,0.15);
 box-shadow: 横向偏移 竖直偏移 阴影宽度 阴影扩散值 阴影色值 inset/outset
@@ -61,22 +61,24 @@ box-shadow: 横向偏移 竖直偏移 阴影宽度 阴影扩散值 阴影色值 
 设置为90度，颜色到transparent的过渡，有金属光泽立体感
 >学习参考http://www.cnblogs.com/lhb25/archive/2013/01/30/css3-linear-gradient.html
 
-7. (function($) {…})(jQuery);形成闭包，在此范围内定义的变量至此不可引用
-$(function(){…});   jQuery(function($) {…});  $(document).ready(function(){…})作用类似，文档加载完成后执行js
+7. (function($) {…})(jQuery);形成闭包，在此范围内定义的变量至此不可引用  
+$(function(){…});  
+jQuery(function($) {…});  
+$(document).ready(function(){…})作用类似，文档加载完成后执行js
+
 
 2016.09.12
-1. 使用toggle收缩：
-	$("#togglt_btn").toggle(function(){
-		$(".to_expand_item").animate({height: 'toggle', opacity: 'toggle'}, "slow");
-			$(this).addClass("expand"); //按钮样式更改
-			return false;
- 
-		},function(){
-			$(this).parent().next(".to_expand_item").animate({height: 'toggle', opacity: 'toggle'}, "slow");
-			$(this).removeClass("expand");
-			return false;
-		}
-	);
+1. 使用toggle收缩：> 
+		$("#togglt_btn").toggle(function(){
+			$(".to_expand_item").animate({height: 'toggle', opacity: 'toggle'}, "slow");
+				$(this).addClass("expand"); //按钮样式更改
+				return false;
+			},function(){
+				$(this).parent().next(".to_expand_item").animate({height: 'toggle', opacity: 'toggle'}, "slow");
+				$(this).removeClass("expand");
+				return false;
+			}
+		);  
 2. 收缩闪一下，由于元素之间的margin值坍塌，最好的方法是处理css时候，不要同时使用margin-top/margin-bottom，只需要设置一个值就ok。
 
 2016.09.14
