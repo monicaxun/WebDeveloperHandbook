@@ -90,7 +90,8 @@ $(function(){…});   jQuery(function($) {…});  $(document).ready(function(){�
 1. 今天下午看得一片文章，关于网易和淘宝的手机适配的，受益良多>http://www.cnblogs.com/lyzg/p/4877277.html
 我们的布局和网易的很像，不过，还是处于比较初级的阶段：对于字体，我们使用rem的：为什么容器元素的font-size都不用rem，需要额外地对font-size做媒介查询？所谓容器元素是什么，指所有字体还是说只是部分？
 图片来自博客：
->
+>![image](https://github.com/monicaxun/WebDeveloperHandbook/raw/master/img/taobao-fe-ui-collaboration.png)
 2. 解读切图@3x文章
 >http://www.25xt.com/appdesign/8034.html?from=androidqq
 >http://www.zhihu.com/question/26195746
+>![image](https://github.com/monicaxun/WebDeveloperHandbook/raw/master/img/iphone_ratio.jpg)
