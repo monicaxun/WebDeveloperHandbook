@@ -13,11 +13,7 @@
 这边由于主要是静态页面，所以，目前暂时就好好地锻炼自己的css能力，不焦躁。慢慢练习，找出手感。
 
 来这边之后，比如知道了：  
-1. border'   
-2. 啊大叔   
-3. 2. as
 1. border-radius，照片可以是方的，设置border-radius大于等于50%即可展示为圆形。
-2. test
 >1. border-radius，照片可以是方的，设置border-radius为100%(50%)，即可展示照片为圆形。
 >>I. 正如原点的实现，可以通过设置长宽为0，然后设置border宽度，同时设置border-radius为大于等于border的宽度即可
 >>II. 或者，直接设置元素的宽度和高度，如18px，然后设置border-radius为50%；异曲同工
