@@ -68,18 +68,19 @@ $(document).ready(function(){…})作用类似，文档加载完成后执行js
 
 
 2016.09.12
-1. 使用toggle收缩：> 
-		$("#togglt_btn").toggle(function(){
-			$(".to_expand_item").animate({height: 'toggle', opacity: 'toggle'}, "slow");
-				$(this).addClass("expand"); //按钮样式更改
-				return false;
-			},function(){
-				$(this).parent().next(".to_expand_item").animate({height: 'toggle', opacity: 'toggle'}, "slow");
-				$(this).removeClass("expand");
-				return false;
-			}
-		);  
+1. 使用toggle收缩：
+$("#togglt_btn").toggle(function(){
+	$(".to_expand_item").animate({height: 'toggle', opacity: 'toggle'}, "slow");
+	$(this).addClass("expand"); //按钮样式更改
+	return false;
+},function(){
+	$(this).parent().next(".to_expand_item").animate({height: 'toggle', opacity: 'toggle'}, "slow");
+	$(this).removeClass("expand");
+	return false;
+});  
+
 2. 收缩闪一下，由于元素之间的margin值坍塌，最好的方法是处理css时候，不要同时使用margin-top/margin-bottom，只需要设置一个值就ok。
+
 
 2016.09.14
 1. 设置父元素line-height来控制间隔，对于过多的子元素，不好控制间隔；要适时选择是否使用line-height。
