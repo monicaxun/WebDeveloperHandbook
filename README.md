@@ -16,16 +16,16 @@
 1. border-radius，照片可以是方的，设置border-radius大于等于50%即可展示为圆形。  
 I. 正如原点的实现，可以通过设置长宽为0，然后设置border宽度，同时设置border-radius为大于等于border的宽度即可  
 II. 或者，直接设置元素的宽度和高度，如18px，然后设置border-radius为50%；异曲同工  
-2. 设计网站的时候，需要考虑很多因素：
->>i. 表格考虑没有结果搜索出来的样式；
->>ii. 字段太长（hover和省略号样式）
->>iii. 图片元素的高度（设计稿和最终开发呈现的会出现差异）
->>iiii. 输入框等的错误提示信息和样式
->3. 主层父元素居中，通过设置：width:1200px; margin: 0 auto;
->4. ul/li，设置好li为display:inline-block的时候，元素之间依然会有空隙；（http://www.cnblogs.com/2050/archive/2012/05/16/2504081.html），设置ul的font-size为0是最优。设置float为left一样可以清除间隙。
+2. 设计网站的时候，需要考虑很多因素：  
+I. 表格考虑没有结果搜索出来的样式；  
+II. 字段太长（hover和省略号样式）  
+III. 图片元素的高度（设计稿和最终开发呈现的会出现差异）  
+V. 输入框等的错误提示信息和样式  
+3. 主层父元素居中，通过设置：width:1200px; margin: 0 auto;  
+4. ul/li，设置好li为display:inline-block的时候，元素之间依然会有空隙；（http://www.cnblogs.com/2050/archive/2012/05/16/2504081.html），设置ul的font-size为0是最优。设置float为left一样可以清除间隙。
 
 
-2016.09.01
+2016.09.01  
 还是要实时纪录呀；<br/>
 <b>Canvas用法纪录</b><br/>
 1. canvas的width和height使用css样式不起作用，应该直接设置width和height属性；<br/>
@@ -39,13 +39,12 @@ II. 或者，直接设置元素的宽度和高度，如18px，然后设置border
 &nbsp;&nbsp;a) iOS：底部弹出蒙层框，选择选项；<br/>
 
 2016.09.08
-1. -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
+#1. -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
    设置字体平滑度（深层理解阅读：http://szafranek.net/works/articles/font-smoothing-explained/）
-2. css content结合before/after伪元素使用，设置前后内容
-   content使用的unicode编码：https://en.wikipedia.org/wiki/List_of_Unicode_characters
-3. 研究学习vue.js，类似Angular.js的MVVM框架
-
-4. PS保存图片，选择保存为WEB所用格式（Command/Ctrl+Alt+Shift+S），图片保存大小与预览大小不一致：
+#2. css content结合before/after伪元素使用，设置前后内容
+>content使用的unicode编码：https://en.wikipedia.org/wiki/List_of_Unicode_characters
+#3. 研究学习vue.js，类似Angular.js的MVVM框架
+#4. PS保存图片，选择保存为WEB所用格式（Command/Ctrl+Alt+Shift+S），图片保存大小与预览大小不一致：
    右侧选择“元数据”为无
    图片保存线条比原先粗：
    选择保存为PNG24位图
