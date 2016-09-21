@@ -67,6 +67,7 @@ jQuery(function($) {…});
 $(document).ready(function(){…})作用类似，文档加载完成后执行js
 
 
+
 2016.09.12  
 1. 使用toggle收缩：  
 
@@ -84,6 +85,7 @@ $("#togglt_btn").toggle(function(){
 
 
 
+
 2016.09.14  
 1. 设置父元素line-height来控制间隔，对于过多的子元素，不好控制间隔；要适时选择是否使用line-height。
 
@@ -91,10 +93,12 @@ $("#togglt_btn").toggle(function(){
 
 
 
+
 2016.09.19  
 1. 移动端设置placeholder样式：input::-webkit-input-placeholder
 
 2. 使用li:list-item设置类目前方的圆点，原本可以通过控制font-size和color实现原点的颜色和大小。但是这种情况下，圆点会比较小。实际应用中，圆点比较大的情况下，最好还是使用占位元素，设置背景色等等效果实现圆点样式。这样，做时间轴效果的时候，使用li:before与position:absolute也会比较好控制具体的left等的位置。
+
 
 
 
@@ -107,7 +111,7 @@ $("#togglt_btn").toggle(function(){
 图片来自博客：  
 >![image](https://github.com/monicaxun/WebDeveloperHandbook/raw/master/img/taobao-fe-ui-collaboration.png)
 
-******2. 解读切图@3x文章
+2. 解读切图@3x文章
 >http://www.25xt.com/appdesign/8034.html?from=androidqq
 >http://www.zhihu.com/question/26195746
 >![image](https://github.com/monicaxun/WebDeveloperHandbook/raw/master/img/iphone_ratio.jpg)
