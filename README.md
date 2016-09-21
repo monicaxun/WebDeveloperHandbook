@@ -94,12 +94,11 @@ $("#togglt_btn").toggle(function(){
 2016.09.19  
 1. 移动端设置placeholder样式：input::-webkit-input-placeholder
 
-2. 使用li:list-item设置类目前方的圆点，原本可以通过控制font-size和color实现原点的颜色和大小。但是这种情况下，圆点会比较小。实际应用中，圆点比较大的情况下，最好还是使用占位元素，设置背景色等等效果实现圆点样式。
-这样，做时间轴效果的时候，使用li:before与position:absolute也会比较好控制具体的left等的位置。
+2. 使用li:list-item设置类目前方的圆点，原本可以通过控制font-size和color实现原点的颜色和大小。但是这种情况下，圆点会比较小。实际应用中，圆点比较大的情况下，最好还是使用占位元素，设置背景色等等效果实现圆点样式。这样，做时间轴效果的时候，使用li:before与position:absolute也会比较好控制具体的left等的位置。
 
 
 
-2016.09.20
+2016.09.20  
 1. 今天下午看得一片文章，关于网易和淘宝的手机适配的，受益良多
 >http://www.cnblogs.com/lyzg/p/4877277.html
 
