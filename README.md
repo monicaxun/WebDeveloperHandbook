@@ -108,7 +108,7 @@ $("#togglt_btn").toggle(function(){
 图片来自博客：  
 >![image](https://github.com/monicaxun/WebDeveloperHandbook/raw/master/img/taobao-fe-ui-collaboration.png)
 
-2. 解读切图@3x文章
->http://www.25xt.com/appdesign/8034.html?from=androidqq
->http://www.zhihu.com/question/26195746
+2. 解读切图@3x文章  
+>http://www.25xt.com/appdesign/8034.html?from=androidqq  
+>http://www.zhihu.com/question/26195746  
 >![image](https://github.com/monicaxun/WebDeveloperHandbook/raw/master/img/iphone_ratio.jpg)
