@@ -64,8 +64,7 @@ box-shadow: 横向偏移 竖直偏移 阴影宽度 阴影扩散值 阴影色值 
 7. (function($) {…})(jQuery);形成闭包，在此范围内定义的变量至此不可引用  
 $(function(){…});  
 jQuery(function($) {…});  
-$(document).ready(function(){…})作用类似，文档加载完成后执行js
-
+$(document).ready(function(){…})作用类似，文档加载完成后执行js  
 
 
 2016.09.12  
@@ -79,7 +78,7 @@ $("#togglt_btn").toggle(function(){
 	$(this).parent().next(".to_expand_item").animate({height: 'toggle', opacity: 'toggle'}, "slow");  
 	$(this).removeClass("expand");  
 	return false;  
-});  
+});    
 
 2. 收缩闪一下，由于元素之间的margin值坍塌，最好的方法是处理css时候，不要同时使用margin-top/margin-bottom，只需要设置一个值就ok。
 
@@ -87,16 +86,14 @@ $("#togglt_btn").toggle(function(){
 
 
 2016.09.14  
-1. 设置父元素line-height来控制间隔，对于过多的子元素，不好控制间隔；要适时选择是否使用line-height。
-
+1. 设置父元素line-height来控制间隔，对于过多的子元素，不好控制间隔；要适时选择是否使用line-height。  
 2. TODO: 设置div元素line-height为58px，内部元素包括span设置display:inline-block，span有一个图标，设置width/height/display:inline-block，此时如果设置这个span的overflow:hidden，页面结构会错乱，类似浮动，需要设置vertical-align:middle保证页面显示垂直居中效果？Why?
 
 
 
 
 2016.09.19  
-1. 移动端设置placeholder样式：input::-webkit-input-placeholder
-
+1. 移动端设置placeholder样式：input::-webkit-input-placeholder  
 2. 使用li:list-item设置类目前方的圆点，原本可以通过控制font-size和color实现原点的颜色和大小。但是这种情况下，圆点会比较小。实际应用中，圆点比较大的情况下，最好还是使用占位元素，设置背景色等等效果实现圆点样式。这样，做时间轴效果的时候，使用li:before与position:absolute也会比较好控制具体的left等的位置。
 
 
