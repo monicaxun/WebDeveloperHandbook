@@ -112,3 +112,15 @@ $("#togglt_btn").toggle(function(){
 >http://www.25xt.com/appdesign/8034.html?from=androidqq  
 >http://www.zhihu.com/question/26195746  
 >![image](https://github.com/monicaxun/WebDeveloperHandbook/raw/master/img/iphone_ratio.jpg)
+
+
+2016.09.27
+supermo的nodejs的安装  
+1. 先安装nodejs；
+2. 然后在目录下，运行，npm install，会出现node_modules文件夹；
+3. 之后运行gulp;
+4. 新打开一个终端：node app，然后浏览器输入：localhost:9090
+
+问题：
+1. 第三步运行gulp，提醒找不到，于是先运行npm install -g gulp --> 没有权限 --> sudo npm install -g gulp，之后再运行gulp；
+2. 第三部运行gulp，报错，“SyntaxError: Block-scoped declarations (let, const, function, class) not yet supported outside strict mode”，按照说明，添加"use strict"即可;
