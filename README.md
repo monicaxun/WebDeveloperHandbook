@@ -121,6 +121,16 @@ supermo的nodejs的安装
 3. 之后运行gulp;
 4. 新打开一个终端：node app，然后浏览器输入：localhost:9090
 
-问题：
-1. 第三步运行gulp，提醒找不到，于是先运行npm install -g gulp --> 没有权限 --> sudo npm install -g gulp，之后再运行gulp；
-2. 第三部运行gulp，报错，“SyntaxError: Block-scoped declarations (let, const, function, class) not yet supported outside strict mode”，按照说明，添加"use strict"即可;
+问题：   
+1. 第三步运行gulp，提醒找不到，于是先运行npm install -g gulp --> 没有权限 --> sudo npm install -g gulp，之后再运行gulp；   
+2. 第三部运行gulp，报错，“SyntaxError: Block-scoped declarations (let, const, function, class) not yet supported outside strict mode”，按照说明，添加"use strict"即可;   
+3. 添加自己的sponsor.js到webpack.config.js之后，没有实时编译出来js，重新运行了一次gulp   
+
+
+2016.09.28   
+
+1. position为absolute的话，元素的margin-top设置负值起作用；否则，估计是因为不会超过当前文档流的布局，无法实现想要的margin-top负值效果；
+
+2. 栅格化图层是因为某些矢量位图，图片不会随着伸展压缩而导致清晰度变化；一般使用中，.jpg不需要这种效果，所以才会在拷贝图层之前，首先进行以下栅格化图层，见9.20日的解读切图@3x，也有部分说明。
+
+而转换为智能对象，是指某些图层，比如说，可以点击这个图层，然后链接到AI工具里面去修改编辑。
