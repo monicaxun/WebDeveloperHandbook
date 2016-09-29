@@ -163,3 +163,6 @@ do so (now or later) by using -b with the checkout command again. Example:
 如是说，git checkout一般用来新建一个branch分支
 
 3. git commit README.md --author "Author Name <authormail>"用来修改提交的author，查看git log的时候显示的author为新author。
+
+4. ssh报错：The authenticity of host 192.168.0.xxx can't be established.   
+解决方案：执行ssh  -o StrictHostKeyChecking=no  192.168.0.xxx　就OK
