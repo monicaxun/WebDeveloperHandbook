@@ -154,11 +154,9 @@ git checkou，可以实现在这个版本的更改和提交，不影响其他bra
 使用提示说：   
 You are in 'detached HEAD' state. You can look around, make experimental
 changes and commit them, and you can discard any commits you make in this
-state without impacting any branches by performing another checkout.
-
+state without impacting any branches by performing another checkout.      
 If you want to create a new branch to retain commits you create, you may
 do so (now or later) by using -b with the checkout command again. Example:
 
-  git checkout -b <new-branch-name>
-
+  git checkout -b <new-branch-name>      
 如是说，git checkout一般用来新建一个branch分支
