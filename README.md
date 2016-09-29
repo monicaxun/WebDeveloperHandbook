@@ -134,3 +134,31 @@ supermo的nodejs的安装
 2. 栅格化图层是因为某些矢量位图，图片不会随着伸展压缩而导致清晰度变化；一般使用中，.jpg不需要这种效果，所以才会在拷贝图层之前，首先进行以下栅格化图层，见9.20日的解读切图@3x，也有部分说明。
 
 而转换为智能对象，是指某些图层，比如说，可以点击这个图层，然后链接到AI工具里面去修改编辑。
+
+3. git stash是保存当前本地编辑的内容，然后从服务器版本开始修改，然后提交；需要取出这个本地编辑的版本，只需要git stash pop一下，就可以找到之前修改的文件等，再进行后续开发;   
+git status查看哪些文件有改动；   
+git log查看提交记录；   
+git diff <commitUUID>:<filename> <commitUUID>:<filename>或者<filename>分别对比两个版本的文件修改，本地文件修改
+
+
+4. Scss语法，若需要写last-Child，在内部&:last-Child即可实现；目前使用变量，还不会div的背景设置等等，如何动态某个不一样的元素。&::after写法
+
+5. select元素不能直接添加伪元素，借用label实现样式更改，从而点击可移动焦点到select选择。
+
+2016.09.29
+1. 为什么页面都没有设置min-width，图片却满屏？
+
+2. git diff <commitUUID> master对比相应提交版本与最新版本的全部修改。  
+git checkout <commitUUID>，会恢复到那个版本，想恢复到最新版本，只需要git checkout master.   
+git checkou，可以实现在这个版本的更改和提交，不影响其他branch的提交，同时可以废弃在这个状态下的提交从而不影响另一个checkout。
+使用提示说：   
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+如是说，git checkout一般用来新建一个branch分支
