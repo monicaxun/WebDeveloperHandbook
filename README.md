@@ -166,3 +166,14 @@ do so (now or later) by using -b with the checkout command again. Example:
 
 4. ssh报错：The authenticity of host 192.168.0.xxx can't be established.   
 解决方案：执行ssh  -o StrictHostKeyChecking=no  192.168.0.xxx　就OK
+
+
+
+2016.09.30
+
+1. 杜老师说display:inline-block，兼容性不大好，可以后续验证。::TODO。
+
+2. 看进国新增的页面，background-image设置两个值，以逗号分隔。同样background-position设置两个值，以逗号分隔。
+
+3. git whatchanged，查看具体每次提交的文件修改。   
+git show <commitUUID>查看某次提交，各文件的修改情况。
