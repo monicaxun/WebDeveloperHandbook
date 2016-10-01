@@ -216,3 +216,4 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
     visibility: hidden;   
 }   
 
+3. select样式改写，-wenkit-appearance: none; -moz-appearance: none;设置替换背景图片，对于在IE下面，还需要添加::-ms-expand{display:none}
