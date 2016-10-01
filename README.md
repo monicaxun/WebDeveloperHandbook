@@ -1,4 +1,5 @@
 # WebDeveloperHandbook
+charset "utf-8"
 
 7/1到现在，进入项目组快靠近两个月了，开始总结工作！
 
@@ -86,7 +87,7 @@ $("#togglt_btn").toggle(function(){
 
 
 2016.09.14  
-1. 设置父元素line-height来控制间隔，对于过多的子元素，不好控制间隔；要适时选择是否使用line-height。  
+1. 设置父元素line-height来控制间隔，对于过多的子元素，不好控制间隔；要适时选择是否使用line-height。  (并不是说不用，还是要了解了再用)
 2. TODO: 设置div元素line-height为58px，内部元素包括span设置display:inline-block，span有一个图标，设置width/height/display:inline-block，此时如果设置这个span的overflow:hidden，页面结构会错乱，类似浮动，需要设置vertical-align:middle保证页面显示垂直居中效果？Why?  
 
 
@@ -177,3 +178,41 @@ do so (now or later) by using -b with the checkout command again. Example:
 
 3. git whatchanged，查看具体每次提交的文件修改。   
 git show <commitUUID>查看某次提交，各文件的修改情况。
+
+4. jade模版引擎，.pug文件格式
+
+
+
+2016.10.01
+
+1. line-height与font-size需要深入研究？TODO，参见9/14日总结。
+
+> http://www.zhangxinxu.com/wordpress/2009/11/css%E8%A1%8C%E9%AB%98line-height%E7%9A%84%E4%B8%80%E4%BA%9B%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%8F%8A%E5%BA%94%E7%94%A8/
+
+> http://www.w3cplus.com/css/fun-line-height.html
+
+> http://www.cnblogs.com/rainman/archive/2011/08/05/2128068.html
+
+2. clearfix为什么需要写那么多   
+.clearfix {   
+    zoom: 1;   
+}   
+.clearfix:after {   
+    display: block;   
+    overflow: hidden;   
+    clear: both;   
+    height: 0;   
+    visibility: hidden;   
+    content: ".";   
+}   
+.clear{   
+    height: 1%;   
+}   
+.clear:after {   
+    content: "";   
+    display: block;   
+    height: 0;   
+    clear: both;   
+    visibility: hidden;   
+}   
+
