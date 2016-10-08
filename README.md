@@ -217,3 +217,19 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 }   
 
 3. select样式改写，-wenkit-appearance: none; -moz-appearance: none;设置替换背景图片，对于在IE下面，还需要添加::-ms-expand{display:none}
+
+2016.10.08
+
+1. 命令行跳转到行首：Ctrl+a，跳转到行末：Ctrl+e   
+取消本次命令输入：Ctrl+c
+
+2. dpkg -l | grep <lib2xml等软件名>查看软件是否已安装
+
+3. 接入开发者平台   
+下载安装微信web开发者工具，可以直接打开页面调试，输入访问页面地址，调试html web页面样式。
+
+4. 微信页面有时候需要清除缓存，否则页面样式不是最新的效果。可以杀掉进程，保险的方法是，使用调试，可以有清除缓存的选项。   
+知乎总结说来有三点：   
+1).在使用window.location.href跳转页面时，在url后面加上“?datetime=”+new Date().getTime();保证每次浏览的网页是最新的。   
+2).js或css更新后，在html引用的地方更新版本号，例如scr="../js/demo.js?v=20160420"。   
+3).对于图片url后不建议加时间戳，否则微信的图片缓存机制将失效，严重影响网页浏览速度。   
