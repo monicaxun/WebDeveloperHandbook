@@ -232,4 +232,22 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 知乎总结说来有三点：   
 1).在使用window.location.href跳转页面时，在url后面加上“?datetime=”+new Date().getTime();保证每次浏览的网页是最新的。   
 2).js或css更新后，在html引用的地方更新版本号，例如scr="../js/demo.js?v=20160420"。   
-3).对于图片url后不建议加时间戳，否则微信的图片缓存机制将失效，严重影响网页浏览速度。   
+3).对于图片url后不建议加时间戳，否则微信的图片缓存机制将失效，严重影响网页浏览速度。  
+
+
+2016.10.09
+
+1. 微信和手机端浏览器打开的mui设计页面，placeholder无法显示，点击输入，内容无法输入成功：经发现为border: 0设置的原因，有时间可以研究一下。TODO:: 
+
+2. 微信服务器部署：服务器安装web.py: `pip install web.py`
+
+3. jade模版引擎学习，extends /.pug
+  - 学习链接http://www.tuicool.com/articles/bUzQVj2
+
+4. `git add -A`, `git commit, git push`
+
+5. `git stash`, `git pull`, `git stash pop`
+
+6. fix conflict, `git commit`
+
+7. `gitk`查看commit历史
