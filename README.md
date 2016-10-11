@@ -260,7 +260,7 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 
 3. Flex布局
   - http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool
-  - a(href="http://www.tuicool.com/articles/Fnu6Zr3")不同场景的选择和代码需求
+  - [不同场景的选择和代码需求](http://www.tuicool.com/articles/Fnu6Zr3)
   - 这其中提到autoprefixer，这个工具会自动添加-webkit－等前缀
   - 设为Flex布局以后，子元素的float、clear和vertical-align属性将失效。
   - 不要用flex-wrap，因为这个属性不支持版本号低于28的firefox浏览器。
