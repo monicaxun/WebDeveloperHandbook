@@ -24,6 +24,7 @@
 ### HTML5
 - [HTML5语义化标签](http://zha-zi.iteye.com/blog/2046632)
 - [HTML5的15大新特性 2016-05-09](http://zha-zi.iteye.com/blog/2046632)
+
 ###### HTML5 Canvas
 - [HTML canvas globalCompositeOperation 属性](http://www.runoob.com/jsref/prop-canvas-globalcompositeoperation.html)
 - [html5 canvas制作刮刮卡](http://www.cnblogs.com/front-end/p/4787108.html)
