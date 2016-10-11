@@ -259,11 +259,11 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 2. gitk失败，安装tcl（先安装homebrew）,brew cask install tcl（ruby的语法 ）
 
 3. Flex布局
-  － http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool
-  － a(href="http://www.tuicool.com/articles/Fnu6Zr3")不同场景的选择和代码需求
-  － 这其中提到autoprefixer，这个工具会自动添加-webkit－等前缀
-  － 设为Flex布局以后，子元素的float、clear和vertical-align属性将失效。
-  － 不要用flex-wrap，因为这个属性不支持版本号低于28的firefox浏览器。
+  - http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool
+  - a(href="http://www.tuicool.com/articles/Fnu6Zr3")不同场景的选择和代码需求
+  - 这其中提到autoprefixer，这个工具会自动添加-webkit－等前缀
+  - 设为Flex布局以后，子元素的float、clear和vertical-align属性将失效。
+  - 不要用flex-wrap，因为这个属性不支持版本号低于28的firefox浏览器。
 
 
 2016.10.11
@@ -271,4 +271,4 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 1. 动画.scss文件@keyframes
 
 2. height: 100vh; height: 100%;
-  － [看，这就是差距，人家12年在研究的，我现在才看到](http://www.zhangxinxu.com/wordpress/2012/09/new-viewport-relative-units-vw-vh-vm-vmin/)
+  - [看，这就是差距，人家12年在研究的，我现在才看到](http://www.zhangxinxu.com/wordpress/2012/09/new-viewport-relative-units-vw-vh-vm-vmin/)
