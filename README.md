@@ -272,3 +272,21 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 
 2. height: 100vh; height: 100%;
   - [看，这就是差距，人家12年在研究的，我现在才看到](http://www.zhangxinxu.com/wordpress/2012/09/new-viewport-relative-units-vw-vh-vm-vmin/)
+
+2016.10.18
+
+1. babel使声称的代码能兼容
+
+2. webpack是什么，需要了解吗
+
+3. gulp，自己搭建项目：
+  - `npm init`，直接[enter]，生成package.json文件。
+  - `npm install <pkg> --save`，安装新的包，并且添加到package.json文件中。（安装 Node 模块时，如果指定了 --save 参数，那么此模块将被添加到 package.json 文件中 dependencies 依赖列表中。 然后通过 npm install 命令即可自动安装依赖列表中所列出的所有模块。）
+  - `npm install pug --save`
+  - [node.js学习](http://www.runoob.com/nodejs/nodejs-callback.html)
+
+4. 目前最主流的三个Web服务器是Apache、Nginx、IIS？
+
+2016.10.26
+
+1. [前端汇总](http://www.cnblogs.com/ys-wuhan/p/5832279.html)
