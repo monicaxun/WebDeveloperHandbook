@@ -290,3 +290,10 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 2016.10.26
 
 1. [前端汇总](http://www.cnblogs.com/ys-wuhan/p/5832279.html)
+
+2. 安装Sass，gem install sass
+
+
+2016.10.28
+
+1. 页面顶部<head>部分base="_blank"，在当前页面打开链接至新的选项卡
