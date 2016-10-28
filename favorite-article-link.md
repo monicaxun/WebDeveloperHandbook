@@ -67,7 +67,7 @@
 
 
 
-=== [国内比较有名的UED团队]https://www.douban.com/note/307094483/
+=== [国内比较有名的UED团队](https://www.douban.com/note/307094483/)
 
 
 
