@@ -309,3 +309,22 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 1. [Chrome浏览器下调试SASS](http://www.cnblogs.com/xmyxm/p/5307472.html)
 
 2. [Gulp系列教程](http://www.w3cplus.com/blog/tags/528.html)
+
+
+2016.11.01
+
+1. 忽略node_modules文件夹，在`cd ~/.subversion`，设置`vim config`，找到`global-ignore`，去掉注释，并添加node_modules忽略
+
+2. 在浏览器调试scss（明确需求为在浏览器即可直接点击元素，找到对应的.scss文件），在gulp下配置了sourcemap：
+`gulp.task('css', () => {
+    gulp.src("./src/css/**/*.*")
+        .pipe(sourcemaps.init())
+        .pipe(scss({expanded: true}))
+        .pipe(postcss([require('postcss-cssnext'), require('precss')]))
+        .pipe(sourcemaps.write('./maps'))
+        .pipe(gulp.dest("./public/css"))
+})`
+
+- [参考1](http://www.cnblogs.com/xmyxm/p/5307472.html)
+- [参考2](http://bbs.csdn.net/topics/391043250?page=1)
+
