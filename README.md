@@ -328,3 +328,30 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 - [参考1](http://www.cnblogs.com/xmyxm/p/5307472.html)
 - [参考2](http://bbs.csdn.net/topics/391043250?page=1)
 
+
+2016.11.02
+
+1. [滑块验证前端滑动效果参考](https://github.com/hbsndg/dragverify)
+
+2016.11.07
+
+1. IE8的css hack是`\0`，`\9`能够被IE6-IE8识别
+
+2016.11.09
+
+1. height: 100%，是相对于父元素，并且设置了定值的父元素；
+
+2. input输入框自动填充背景色修改
+
+`.login-way input:-webkit-autofill{
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.login-way input:-webkit-autofill:focus{
+  border: #ff9913 1px solid
+}`
+
+
+2016.11.12
+
+1. scss文件的import语法`@import "../common/common.scss"`
