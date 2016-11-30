@@ -355,3 +355,15 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 2016.11.12
 
 1. scss文件的import语法`@import "../common/common.scss"`
+
+
+2016.11.14
+
+1. [scss中嵌套，@mixins，继承等用法的使用注意事项](http://www.w3cplus.com/preprocessor/sass-basic-mixins-nesting-placeholders-extend.html)
+
+2. PS图片保存为web所用格式，作为background使用的时候，变模糊，怎么解决？
+- 先确认原图
+
+2016.11.29
+
+1. 设计师说，保存为jpg的时候，品质不要压缩，要为100。
