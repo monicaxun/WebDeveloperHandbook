@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test float dt but not dd</title>
+    <style type="text/css">
+    div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+    .clearfix{zoom:1}
+    .clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+    /* 浮动属性 */
+    .left,.l{float:left;}
+    .right,.r{float:right;}
+    .test_float dt{
+        float: left;
+        height: 30px;
+        line-height: 30px;
+        width: 100px;
+        text-align: right;
+        margin-right: 10px;
+    }
+    .city {
+        line-height: 20px;
+        padding: 5px 0;
+    }
+    .city>div {
+        /*margin: 5px 0;*/
+        
+    }
+    .city>div span{
+        line-height: 20px;
+        padding: 0 6px;
+        margin-right: 10px;
+        border-radius: 2px;
+        float: left;
+        display: block;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <!-- 测试当dt float:left，dd环绕，为什么右边高度会被挤开 -->
+    <dl class="test_float">
+        <dt>期望地点：</dt>
+        <dd>
+            <ul>
+                <li class="city clearfix">
+
+                    <!-- 只有dt设置为float:left，dd环绕，为什么两个div的height都是20，但是高度却会多出5px。
+                    原因：设置li的padding：5px 0；会导致float向下5px
+                    解决方案：设置内部内容div的margin，同样能达到样式，不影响float的整体高度
+                    TODO：float环绕和 -->
+                    <div class="left"><span>全国</span></div>
+                    <div class="left">
+                        <span class="all_city">全国</span>
+                        <span>北京</span>
+                        <span>深圳哈尔滨哈尔滨哈尔滨</span>
+                        <span>哈尔滨</span>
+                        <span>呼和浩特</span>
+                        <span>乌鲁木齐</span>
+                        <span class="focus">上海</span>
+                    </div>
+                </li>
+                <!-- <li class="city_pop"></li> -->
+            </ul>
+        </dd>
+    </dl>
+</body>
+</html>

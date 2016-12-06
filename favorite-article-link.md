@@ -66,6 +66,16 @@
 
 
 
+### ES6/7学习网站
+- [compat-table/es2016plus](http://kangax.github.io/compat-table/es2016plus/)
+- [compat-table/es6](http://kangax.github.io/compat-table/es6/)
+- [es-next](https://github.com/hemanth/es-next)
+- [es6features](https://github.com/lukehoban/es6features)
+- [给 JavaScript 初心者的 ES2015 实战](http://gank.io/post/564151c1f1df1210001c9161)
+- [阮一峰ECMAScript 6入门](http://es6.ruanyifeng.com/)
+- [babel learn es 2015](http://babeljs.io/docs/learn-es2015/)
+- [JavaScript Promise迷你书](http://liubin.org/promises-book/#ch2-promise-all)
+
 
 === [国内比较有名的UED团队](https://www.douban.com/note/307094483/)
 
