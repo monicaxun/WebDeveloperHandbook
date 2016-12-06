@@ -66,6 +66,11 @@
 
 
 
+### React
+- [阮一峰 React技术栈系列教程](http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html)
+
+
+
 ### ES6/7学习网站
 - [compat-table/es2016plus](http://kangax.github.io/compat-table/es2016plus/)
 - [compat-table/es6](http://kangax.github.io/compat-table/es6/)
