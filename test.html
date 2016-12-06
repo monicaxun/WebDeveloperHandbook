@@ -63,5 +63,108 @@
             </ul>
         </dd>
     </dl>
+
+<style type="text/css">
+
+li {
+    display: block;
+    min-height: 30px;
+    line-height: 30px;
+    margin-bottom: 22px;
+    position: relative;
+    list-style-type: none;
+    vertical-align: middle;
+}
+.left-til {
+    display: inline-block;
+    width: 113px;
+    vertical-align: top;
+    position: relative;
+}
+.left-til em {
+    color: #FF5027;
+    margin-right: 5px;
+    vertical-align: middle;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.upload_item {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    margin: 0;
+    max-width: 246px;
+    margin-right: 20px;
+}
+
+.upload_item .upload {
+    width: 33px;
+    height: 33px;
+    margin-right: 16px;
+    cursor: pointer;
+    background: url(img/icos.png) -26px -87px;
+    position: relative;
+    float: left;
+    color: #ff9913;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.upload_item .upload input[type="file"] {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    margin-right: 2px;
+}
+
+.upload_item .upload_name {
+    width: 84px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 4px;
+    line-height: 14px;
+}
+
+.upload_item .upload_name p {
+    line-height: 12px;
+    font-size: 12px;
+}
+
+.text-input {
+    width: 224px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 1px solid #d8d8d8;
+    color: #333;
+    outline: none;
+    box-sizing: border-box;
+}
+</style>
+<ul>
+    <li class="license one-certificate">
+        <span class="left-til"><em>*</em>企业证照：</span>
+        <div class="upload_item">
+            <a class="upload"><input type="file" id="enterpriseInput" name="file" onchange="upload(this, 'license', 'eRegisterLicenseImg', 'headPic')" accept="image/*"></a>
+            <div class="upload_name">
+                <p>企业证照</p>
+                <p>（4M以内）</p>
+            </div>
+            <div class="upload_no">
+                <input type="text" name="enterpriseLicenseNo" class="text-input clinicData must-fill" maxlength="50" placeholder="请输入企业证照号" unittype="input">
+            </div>
+        </div>
+    </li>
+</ul>
 </body>
 </html>
