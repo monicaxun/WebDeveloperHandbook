@@ -380,3 +380,7 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 2. 定义一个dl>dt+dd>ul>li>div*2，设置dt为float:left，dd不定义，当dd内部内容li定义padding: 5px 0时候，发现明明li内部两个div明明高度都是20px，但是整个li单行的高度却是35px（包含padding的10px，期望值是30px），解决方法，直接设置内部div的padding或者margin，不要设置li的，这样会影响整行的高度。
 
 3. 之前发现的一个设计图方便前端方案：软件使用Sketch，插件导出前端代码，插件显示各分离文件(Zeplint, Affinity)
+
+2016.12.07
+
+1. [关于获取屏幕尺寸](http://caibaojian.com/js-name.html)
