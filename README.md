@@ -384,3 +384,55 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 2016.12.07
 
 1. [关于获取屏幕尺寸](http://caibaojian.com/js-name.html)
+
+2016.12.09
+
+1. [小影志 | 分享好东西](http://c7sky.com/)
+- [10个优秀的占位图服务](http://c7sky.com/the-top-10-image-placeholder-services.html)
+
+2. Vue.js使用的滚动插件是：smooth-scroll
+
+2016.12.12
+
+1. 手机网页浏览器调试：
+
+- 打开chrome://inspect，（网站inspect显示为空白）
+- 手机安装chrome，（网站inspect显示为空白）
+- 手机翻墙后，不起效。之后再电脑翻墙，inspect显示起效！
+- 测试手机非chrome浏览器，也是可以inspect的
+
+2. 面试题目：
+- 查找某个classname元素，兼容IE6/7/8
+- 冒泡和捕获，在不兼容的浏览器实现捕获
+- html用到的新特性：cookie, local storage ,session storage
+- session storage的应用场景
+
+2016.12.14
+
+1. 生产环境，背景图片ie8下做背景图兼容，使用绝对路径，相对路径不起作用。
+- image路径相对路径，那么值得注意的是，这个相对路径是根据html相对的，而不是CSS，所以当你发布的时候会发现一堆问题，所以，这里建议还是放到外网，使用绝对路径？
+- 路径根据html相对？什么意思？？？TBD
+
+2. gulp新建的文件是会编译拷贝到文件夹，但是修改不是实时的？
+
+2016.12.15
+
+1. border-image: linear-gradient(-21deg, #d0dfff, #1e47b0) 1/1px;
+- 阴影渐变，如果有border-radius，不起作用，可以尝试使用元素包含，设置背景色，置于内容下方，z-index:-1
+
+2017.01.23
+
+1. 使用发现不能使用
+
+
+2017.02.08
+
+1. 微信打开网页链接，点击右上角分享，如何设置分享标题和简介内容
+- 设置页面的title和keywords
+
+
+2017.02.14
+
+1. 拜读张鑫旭[CSS 相对|绝对(relative/absolute)定位系列](http://www.zhangxinxu.com/wordpress/?p=1287)
+
+2. background-color: rgba(0, 0, 0, .25);兼容性：filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#40000000,endColorStr=#40000000);
