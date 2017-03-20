@@ -429,6 +429,9 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 
 1. 微信打开网页链接，点击右上角分享，如何设置分享标题和简介内容
 - 设置页面的title和keywords
+- 简介内容无法更改，总显示页面链接，需要使用微信开发者工具
+- 按照SDK使用，从万家接口获取wx.config的相关参数设置
+- 后续wx.onMenuShareTimeline设置分享标题，图标及简介内容
 
 
 2017.02.14
@@ -436,3 +439,7 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 1. 拜读张鑫旭[CSS 相对|绝对(relative/absolute)定位系列](http://www.zhangxinxu.com/wordpress/?p=1287)
 
 2. background-color: rgba(0, 0, 0, .25);兼容性：filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#40000000,endColorStr=#40000000);
+
+2017.03.20
+
+1. 安装Visual Studio For Mac Preview，安装总是停在网络安装JDK等等，翻墙后，就可以在线下载安装了
