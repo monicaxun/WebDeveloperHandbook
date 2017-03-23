@@ -1,5 +1,13 @@
 # 收藏夹的好文
 
+### github资源整合的文章
+- [CSS 资源大全中文版，内容包括：CSS预处理器、框架、CSS结构、代码风格指南、命名习惯等等](https://github.com/jobbole/awesome-css-cn)
+- [JavaScript 资源大全中文版](https://github.com/jobbole/awesome-javascript-cn)
+- [Vue相关开源项目库汇总](https://github.com/opendigg/awesome-github-vue)
+- [总结一些JavaScript开发的著名开源项目](http://www.ctolib.com/topics-107352.html)
+
+
+
 ### Sublime相关文章
 - [SublimeText全程指南 2014-09-27](http://zh.lucida.me/blog/sublime-text-complete-guide/)
 - [Sublime简单快捷键及Emmet快速语法 github 2015-3-1](https://github.com/shindouhiro/sublime_text)
