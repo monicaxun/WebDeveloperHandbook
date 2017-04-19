@@ -437,9 +437,14 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 2017.02.14
 
 1. 拜读张鑫旭[CSS 相对|绝对(relative/absolute)定位系列](http://www.zhangxinxu.com/wordpress/?p=1287)
+- 主要了解了relative对于显示层级的关系，和z-index使用，可以飞在上层
 
 2. background-color: rgba(0, 0, 0, .25);兼容性：filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#40000000,endColorStr=#40000000);
 
 2017.03.20
 
 1. 安装Visual Studio For Mac Preview，安装总是停在网络安装JDK等等，翻墙后，就可以在线下载安装了
+
+2017.04.19
+
+1. 再次粗略了解vertical-align，需要对inline-block元素起作用（inline元素应该也是一样，因为，对齐于父级元素的inline-block？）
