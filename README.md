@@ -448,3 +448,8 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 2017.04.19
 
 1. 再次粗略了解vertical-align，需要对inline-block元素起作用（inline元素应该也是一样，因为，对齐于父级元素的inline-block？）
+
+2. 研究百度分享和bShare
+- 微信分享弹框内容自定义（无法自定义弹框内容，只可以调整宽度等
+- bshare，它可以自定义redirectAPI，可以指定分享的url，https的也支持的。
+- bShare直接生成二维码代码，url = "http://b.bshare.cn/barCode?site=weixin&type=0&url="+e(_getShareUrl())+&publisherUuid="+uuid;
