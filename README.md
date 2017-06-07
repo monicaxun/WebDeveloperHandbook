@@ -453,3 +453,9 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 - 微信分享弹框内容自定义（无法自定义弹框内容，只可以调整宽度等
 - bshare，它可以自定义redirectAPI，可以指定分享的url，https的也支持的。
 - bShare直接生成二维码代码，url = "http://b.bshare.cn/barCode?site=weixin&type=0&url="+e(_getShareUrl())+&publisherUuid="+uuid;
+
+
+
+2017.06.07
+
+1. [软件下载地址](Mac软件下载地址，主要下过Logo Remover)
