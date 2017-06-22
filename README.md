@@ -459,3 +459,16 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 2017.06.07
 
 1. [软件下载地址](Mac软件下载地址，主要下过Logo Remover)
+
+
+2017.06.15
+
+1. table的td设置text-overflow不起作用，需要设置max-width属性来达到效果；
+
+2. input, select为什么在ul>li，li的width: 50%; float: left的时候，设置高度为32px，实际的高度为33px呢，设置vertical-align之后高度就是32px了？
+
+3. ps切图，
+- 选择需要切图的片区
+- 转换为智能对象，栅格化图层
+- 复制（+C），全选（+A），新建窗口（+N），粘贴（+V），保存
+- 原psd文件只需要通过历史路径恢复最初的文件
