@@ -461,7 +461,7 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 1. [软件下载地址](Mac软件下载地址，主要下过Logo Remover)
 
 
-2017.06.15
+2017.06.22
 
 1. table的td设置text-overflow不起作用，需要设置max-width属性来达到效果；
 
@@ -472,3 +472,14 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 - 转换为智能对象，栅格化图层
 - 复制（+C），全选（+A），新建窗口（+N），粘贴（+V），保存
 - 原psd文件只需要通过历史路径恢复最初的文件
+
+
+
+2017.06.23
+
+1. div>input*3+a，设置input的margin-bottom为10px，a（display: block）的margin-top为20px，这时候为什么没有margin的坍塌？
+
+
+
+2017.06.29
+1. [移动前端开发之viewport的深入理解](http://www.cnblogs.com/2050/p/3877280.html)
