@@ -9,7 +9,7 @@ charset "utf-8"
 1. 搭建网页，主要是元素的构成，先内容插入；
 2. 再是，按照设计师给出的设计稿，修改基础的样式：不要害怕修改第一步的元素，不然将来会有更多的修改和时间花在原先不合理的元素上；
 3. 最后再是完成页面的动作，交互等的设计；
-4. 先是html元素构建内容；然后大体上上下左右布局；定位后调试细节。
+4. 先是html元素构建内容；然后大体上上下左右布局；定位后调试细节。 
 
 这边由于主要是静态页面，所以，目前暂时就好好地锻炼自己的css能力，不焦躁。慢慢练习，找出手感。
 
@@ -70,7 +70,7 @@ $(document).ready(function(){…})作用类似，文档加载完成后执行js
 
 2016.09.12  
 1. 使用toggle收缩：  
-
+`
 $("#togglt_btn").toggle(function(){  
 	$(".to_expand_item").animate({height: 'toggle', opacity: 'toggle'}, "slow");  
 	$(this).addClass("expand"); //按钮样式更改  
@@ -80,7 +80,7 @@ $("#togglt_btn").toggle(function(){
 	$(this).removeClass("expand");  
 	return false;  
 });    
-
+`
 2. 收缩闪一下，由于元素之间的margin值坍塌，最好的方法是处理css时候，不要同时使用margin-top/margin-bottom，只需要设置一个值就ok。  
 
 
@@ -410,8 +410,9 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 2016.12.14
 
 1. 生产环境，背景图片ie8下做背景图兼容，使用绝对路径，相对路径不起作用。
+
 - image路径相对路径，那么值得注意的是，这个相对路径是根据html相对的，而不是CSS，所以当你发布的时候会发现一堆问题，所以，这里建议还是放到外网，使用绝对路径？
-- 路径根据html相对？什么意思？？？TBD
+- 路径根据html相对？什么意思？？？TBD  
 
 2. gulp新建的文件是会编译拷贝到文件夹，但是修改不是实时的？
 
@@ -428,6 +429,7 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 2017.02.08
 
 1. 微信打开网页链接，点击右上角分享，如何设置分享标题和简介内容
+
 - 设置页面的title和keywords
 - 简介内容无法更改，总显示页面链接，需要使用微信开发者工具
 - 按照SDK使用，从万家接口获取wx.config的相关参数设置
@@ -450,6 +452,8 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 1. 再次粗略了解vertical-align，需要对inline-block元素起作用（inline元素应该也是一样，因为，对齐于父级元素的inline-block？）
 
 2. 研究百度分享和bShare
+
+
 - 微信分享弹框内容自定义（无法自定义弹框内容，只可以调整宽度等
 - bshare，它可以自定义redirectAPI，可以指定分享的url，https的也支持的。
 - bShare直接生成二维码代码，url = "http://b.bshare.cn/barCode?site=weixin&type=0&url="+e(_getShareUrl())+&publisherUuid="+uuid;
@@ -468,6 +472,7 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 2. input, select为什么在ul>li，li的width: 50%; float: left的时候，设置高度为32px，实际的高度为33px呢，设置vertical-align之后高度就是32px了？
 
 3. ps切图，
+
 - 选择需要切图的片区
 - 转换为智能对象，栅格化图层
 - 复制（+C），全选（+A），新建窗口（+N），粘贴（+V），保存
@@ -482,4 +487,15 @@ git show <commitUUID>查看某次提交，各文件的修改情况。
 
 
 2017.06.29
+
 1. [移动前端开发之viewport的深入理解](http://www.cnblogs.com/2050/p/3877280.html)
+
+
+
+2017.08.03
+
+1.移动端一些兼容性问题：
+
+- 输入框iPhone无法输入，取消input的-webkit-user-select:none
+- iphone输入框上部分会有阴影，设置-webkit-appearance:none
+- iPhone6s下，radio会有一圈黑色，border:none
